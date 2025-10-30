@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sansmit Audio — Music Studio</title>
+  <link rel="stylesheet" href="style.css"</head>
+
+<body
+  style="background-image: url('cyber.jpg'); background-size: cover;background-repeat: no-repeat;color:white;text-align: center;">
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#">Sansmit <span>Audio</span></a>
+      <nav class="main-nav" id="nav">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#team">Team</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button id="menuBtn" class="menu-btn" aria-label="Toggle menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Sansmit Audio</h1>
+          <p>Professional recording · Mixing · Mastering · Music production</p>
+          <a class="btn-primary" href="#contact">Book a Session</a>
+        </div>
+        <!-- <div class="hero-player"> -->
+          <div class="player-card">
+            <h3>Studio Player</h3>
+            <div class="playlist" id="playlist"></div>
+            <!-- <audio id="audio" controls preload="none">
+              Your browser does not support the audio element.
+            </audio> -->
+
+            <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/4qx6rIVEuQuGu18mPxD6Sk?utm_source=generator" width="100%" height="300px" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <div class="player-controls">
+              <button id="prev">◀</button>
+              <button id="play">Play</button>
+              <button id="next">▶</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <h2>Services</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Recording</h3>
+            <p>Vocal and instrument tracking in a treated room with quality microphones.</p>
+          </article>
+          <article class="card">
+            <h3>Mixing</h3>
+            <p>Professional mixing to make your track shine on any system.</p>
+          </article>
+          <article class="card">
+            <h3>Mastering</h3>
+            <p>Final loudness, EQ, and dynamics so your release is ready for platforms.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="section alt">
+      <div class="container">
+        <h2>Gallery</h2>
+        <div class="grid">
+          <div class="photo" style="background-image:url('https://via.placeholder.com/600x400?text=Studio+1')"></div>
+          <div class="photo" style="background-image:url('https://via.placeholder.com/600x400?text=Console')"></div>
+          <div class="photo" style="background-image:url('https://via.placeholder.com/600x400?text=Vocal+Booth')"></div>
+        </div>
+      </div>
+    </section>
+
+
+    <p>Songwriting &amp; Arrangements</p>
+    </div>
+    </div>
+    </div>
+    </section>
+
+    <section id="contact" class="section alt contact-section">
+      <div class="container">
+        <h2>Contact &amp; Booking</h2>
+        <div class="contact-grid">
+          <form id="contactForm" class="contact-form">
+            <label for="name">Name</label>
+            <input id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit" class="btn-primary">Send Message</button>
+            <p id="formMsg" class="form-msg" aria-live="polite"></p>
+          </form>
+
+          <div class="contact-info">
+            <p><strong>Address:</strong> Sansmit Audio Studio, Ghansoli (replace with real address)</p>
+            <p><strong>Phone:</strong> +91 90000 00000</p>
+            <p><strong>Email:</strong> info@sansmitaudio.com</p>
+            <div class="socials">
+              <a href="#">Instagram</a> · <a href="#">YouTube</a> · <a href="#">Facebook</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Sansmit Audio — All rights reserved.</p>
+      <small>Designed by sansmit❤️</small>
+    </div>
+  </footer>
+
+  <!-- <script src="script.js"></script> -->
+</body>
+
+</html>

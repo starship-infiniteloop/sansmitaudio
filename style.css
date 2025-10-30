@@ -1,0 +1,169 @@
+/* style.css — Sansmit Audio website styles */
+
+/* Body & background */
+body {
+  background-image: url('cyber.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+.site-header {
+  padding: 18px 0;
+  background: rgba(0,0,0,0.5);
+}
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+}
+.logo span {
+  color: #ff6a00;
+}
+.main-nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+.main-nav a:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+/* Hero Section */
+.hero {
+  padding: 60px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.hero-text {
+  flex: 1;
+  min-width: 280px;
+}
+.hero-text h1 {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+}
+.hero-text p {
+  color: #ccc;
+  margin-bottom: 20px;
+}
+.btn-primary {
+  display: inline-block;
+  background: #ff6a00;
+  padding: 12px 20px;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+.btn-primary:hover {
+  opacity: 0.9;
+}
+
+/* Cards Section */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+.card {
+  background: rgba(255,255,255,0.05);
+  padding: 18px;
+  border-radius: 12px;
+  flex: 1 1 250px;
+}
+.card h3 {
+  margin-bottom: 10px;
+}
+.card p {
+  color: #ccc;
+}
+
+/* Gallery Section */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 20px;
+}
+.photo {
+  flex: 1 1 calc(33% - 12px);
+  height: 160px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+/* Contact Form */
+.contact-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+.contact-form {
+  flex: 1;
+  min-width: 250px;
+  background: rgba(255,255,255,0.05);
+  padding: 20px;
+  border-radius: 12px;
+}
+.contact-form label {
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background: rgba(255,255,255,0.1);
+  color: white;
+}
+.contact-form button {
+  margin-top: 14px;
+  background: #ff6a00;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+.contact-form button:hover {
+  opacity: 0.9;
+}
+
+/* Footer */
+.site-footer {
+  padding: 20px 0;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  text-align: center;
+}
+.site-footer small {
+  display: block;
+  margin-top: 6px;
+  opacity: 0.7;
+}
+
+div{
+  margin:auto;
+}
